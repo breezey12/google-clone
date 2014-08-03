@@ -1,0 +1,159 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+#body {
+	position: relative;
+	height: 100%;
+	/*background-color: green; */
+
+}
+
+#header {
+	position: relative;
+	height: 60px;
+	width: 100%;
+	/*background-color: orange;*/
+}
+
+.nav {
+	position: relative;
+	height: 40px;
+	width: 600px;
+	margin-right: 20px;
+	margin-top: 10px;
+	left: 75%;
+	float: left;
+	/*background-color: blue; */
+
+}
+
+.nav li {
+	position: relative;
+	float: left;
+	display: inline-block;
+	text-align: center;
+	padding: 13px 13px 13px 13px;
+
+}
+
+.nav li img {
+	position: relative;
+	padding-top: -10px;
+}
+
+#center_block {
+	position: relative;
+	height: 400px;
+	width: 100%;
+	/*background-color: white;*/
+}
+
+#google {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 112px; 
+}
+
+.searchrow {
+	position: relative;
+	display: block;
+	height: 30px;
+	width: 100%;
+	/*background-color: purple;*/
+
+}
+
+#searchbar {
+	position: relative;
+	display: inline-block;
+	/*background-color: white;*/
+	border: solid black 2px;
+	height: 27px;
+	width: 541px;
+	margin-left: 450px;
+	margin-right: 353px;
+	border-radius: 10px;
+}
+
+#microphone {
+	float: right;
+}
+
+#center_down {
+	position: relative;
+	height: 231px;
+	width: 100%;
+	/*background-color: white;*/
+}
+
+#footer {
+	position: relative;
+	height: 60px;
+	width: 100%;
+	/*background-color: orange;*/
+}
+
+.footernav1 li {
+	position: relative;
+	float: left;
+	display: inline-block;
+	text-align: center;
+	padding: 13px 13px 13px 13px;
+
+}
+
+.footernav2 li {
+	position: relative;
+	float: right;
+	display: inline-block;
+	text-align: center;
+	padding: 13px 13px 13px 13px;
+
+}
